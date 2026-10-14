@@ -1,0 +1,512 @@
+[
+  {
+    "A": "Código da peça",
+    "B": "Nome da peça",
+    "C": "Carros em que é utilizada"
+  },
+  {
+    "A": "9400164889",
+    "B": "Anel do Bujão",
+    "C": "DUCATO X250\nSCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "9677491780",
+    "B": "ANEL DO BUJÃO",
+    "C": "TITANO 2.2D MT (Antiga/9VC)\nTITANO 2.2D AT (Antiga/9VC)"
+  },
+  {
+    "A": "155258297",
+    "B": "Bomba d'água",
+    "C": "DUCATO X250"
+  },
+  {
+    "A": "155254522",
+    "B": "BOMBA D´AGUA",
+    "C": "SCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "9467642480",
+    "B": "Correia da distribuição",
+    "C": "DUCATO X250\nTITANO 2.2D MT (Antiga/9VC)\nTITANO 2.2D AT (Antiga/9VC)"
+  },
+  {
+    "A": "155253981",
+    "B": "CORREIA DE DISTRIBUIÇÃO",
+    "C": "SCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "5801467815",
+    "B": "CORREIA DE DISTRIBUIÇÃO",
+    "C": "DUCATO"
+  },
+  {
+    "A": "46357957",
+    "B": "CORREIA DENTADA",
+    "C": "TORO 2.0"
+  },
+  {
+    "A": "46337687",
+    "B": "Correia Distribuição",
+    "C": "UNO 1.0 FIRE\nPALIO WEEKEND 1.4\nGRAND SIENA 1.0\nGRAND SIENA 1.4\nNOVA STRADA 1.4\nFIORINO 1.4 (2021/2022 para cima)\nMOBI 1.0 FIRE"
+  },
+  {
+    "A": "46348571",
+    "B": "Correia dos órgão auxiliares",
+    "C": "FASTBACK ABARTH 1.3T\nTORO 1.3T MY25\nTORO 1.3T MY26\nTORO 1.3T MY27"
+  },
+  {
+    "A": "46349670",
+    "B": "Correia dos órgão auxiliares",
+    "C": "FASTBACK 1.0T"
+  },
+  {
+    "A": "46357071",
+    "B": "Correia dos órgão auxiliares",
+    "C": "DUCATO X250 2.2D MY26\nSCUDO 2.2 (Nova)"
+  },
+  {
+    "A": "46357445",
+    "B": "Correia dos órgão auxiliares",
+    "C": "TITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D AT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "46360326",
+    "B": "Correia dos órgão auxiliares",
+    "C": "TORO 1.3T MHEV"
+  },
+  {
+    "A": "46358641",
+    "B": "Correia dos Orgãos Auxiliares",
+    "C": "TORO 2.2TD MY26\nTORO 2.2TD MY27"
+  },
+  {
+    "A": "55258359",
+    "B": "Correia dos Orgãos Auxiliares",
+    "C": "CRONOS 1.8\nARGO 1.8\nTORO 1.8"
+  },
+  {
+    "A": "55267966",
+    "B": "Correia dos Órgãos Auxiliares",
+    "C": "CRONOS 1.0 até MY26\nCRONOS 1.0 MY27\nCRONOS 1.3 até MY26\nCRONOS 1.3 MY27 MT\nCRONOS 1.3 MY27 AT\nUNO 1.0 FIREFLY\nUNO 1.3 FIREFLY\nNOVA STRADA 1.3 AT\nNOVA STRADA 1.3 MT\nARGO 1.0\nARGO 1.3 AT\nARGO 1.3 MT\nPULSE 1.3 AT\nPULSE 1.3 MT\nMOBI FIREFLY\nMOBI 1.0 MY27"
+  },
+  {
+    "A": "9813908180",
+    "B": "CORREIA DOS ÓRGÃOS AUXILIARES",
+    "C": "SCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "9809996880",
+    "B": "Correia dos orgãos auxiliares do motor",
+    "C": "DUCATO X250"
+  },
+  {
+    "A": "500388408",
+    "B": "CORREIA ORGÃOS AUXILIARES",
+    "C": "DUCATO"
+  },
+  {
+    "A": "55236185",
+    "B": "CORREIA TRANSMISSAO C/ AC",
+    "C": "UNO 1.0 FIRE\nPALIO WEEKEND 1.4\nGRAND SIENA 1.4\nFIORINO 1.4 (2021/2022 para cima)\nFIORINO 1.3"
+  },
+  {
+    "A": "55244798",
+    "B": "CORREIA TRANSMISSAO C/ AC",
+    "C": "PALIO WEEKEND 1.8\nDOBLO 1.8"
+  },
+  {
+    "A": "55258482",
+    "B": "Correia Transmissão c/ AC",
+    "C": "GRAND SIENA 1.0\nNOVA STRADA 1.4\nMOBI 1.0 FIRE"
+  },
+  {
+    "A": "46744566",
+    "B": "CORREIA TRANSMISSAO DH",
+    "C": "UNO 1.0 FIRE\nPALIO WEEKEND 1.4\nFIORINO 1.4 (2021/2022 para cima)"
+  },
+  {
+    "A": "55211240",
+    "B": "Correia Transmissão DH",
+    "C": "NOVA STRADA 1.4\nFIORINO 1.4 (2021/2022 para cima)\nMOBI 1.0 FIRE"
+  },
+  {
+    "A": "46354609",
+    "B": "CORREIAS DOS ÓRGÃOS AUXILIARES DO MOTOR",
+    "C": "TORO 2.0"
+  },
+  {
+    "A": "50048146",
+    "B": "CORREIAS DOS ÓRGÃOS AUXILIARES DO MOTOR",
+    "C": "TORO 2.4"
+  },
+  {
+    "A": "9813908880",
+    "B": "ELEMENTO DE FILTRO DE AR",
+    "C": "SCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "77367623",
+    "B": "Elemento do filtor de Combustível",
+    "C": "TORO 2.0\nTORO 2.2TD MY26\nTORO 2.2TD MY27\nTITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D AT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "9878309480",
+    "B": "Elemento do filtor de Combustível",
+    "C": "SCUDO 2.2 (Nova)"
+  },
+  {
+    "A": "9853098280",
+    "B": "Elemento do filtro de ar do motor",
+    "C": "SCUDO 2.2 (Nova)"
+  },
+  {
+    "A": "1699580280",
+    "B": "Elemento do filtro de aspirção de ar do motor",
+    "C": "TITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D AT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "52222118",
+    "B": "Elemento do filtro de aspirção de ar do motor",
+    "C": "DUCATO X250 2.2D MY26"
+  },
+  {
+    "A": "46356228",
+    "B": "Elemento do filtro de óleo do motor",
+    "C": "TORO 2.2TD MY26\nTORO 2.2TD MY27\nDUCATO X250 2.2D MY26\nSCUDO 2.2 (Nova)\nTITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D AT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "51854598",
+    "B": "ELEMENTO FILTRANTE",
+    "C": "UNO 1.0 FIRE\nGRAND SIENA 1.0\nGRAND SIENA 1.4\nNOVA STRADA 1.4\nFIORINO 1.4 (2021/2022 para cima)\nMOBI 1.0 FIRE"
+  },
+  {
+    "A": "51857956",
+    "B": "ELEMENTO FILTRANTE",
+    "C": "PALIO WEEKEND 1.8\nDOBLO 1.8"
+  },
+  {
+    "A": "7082141",
+    "B": "ELEMENTO FILTRANTE",
+    "C": "PALIO WEEKEND 1.4"
+  },
+  {
+    "A": "52234083",
+    "B": "Elemento Filtrante do Ar",
+    "C": "TORO 2.2TD MY26\nTORO 2.2TD MY27"
+  },
+  {
+    "A": "50055447",
+    "B": "ELEMENTO FILTRANTE DO FILTRO ÓLEO",
+    "C": "TORO 2.4"
+  },
+  {
+    "A": "71754237",
+    "B": "ELEMENTO FILTRANTE DO FILTRO ÓLEO",
+    "C": "TORO 2.0"
+  },
+  {
+    "A": "51977574",
+    "B": "ELEMENTO FILTRANTE FILTRO AR",
+    "C": "TORO 1.8\nTORO 2.4\nTORO 2.0"
+  },
+  {
+    "A": "6000633316",
+    "B": "Filtro Anti Pólen",
+    "C": "DUCATO X250"
+  },
+  {
+    "A": "71775823",
+    "B": "FILTRO AR CONDICIONADO",
+    "C": "500e"
+  },
+  {
+    "A": "155253599",
+    "B": "FILTRO COMBUSTIVEL",
+    "C": "SCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "77369138",
+    "B": "FILTRO COMBUSTIVEL",
+    "C": "DUCATO\nDUCATO X250 2.2D MY26"
+  },
+  {
+    "A": "155255862",
+    "B": "FILTRO DE AR",
+    "C": "TITANO 2.2D MT (Antiga/9VC)\nTITANO 2.2D AT (Antiga/9VC)"
+  },
+  {
+    "A": "52046268",
+    "B": "Filtro de Ar",
+    "C": "CRONOS 1.0 até MY26\nCRONOS 1.0 MY27\nCRONOS 1.3 até MY26\nCRONOS 1.3 MY27 MT\nCRONOS 1.3 MY27 AT\nUNO 1.0 FIREFLY\nUNO 1.3 FIREFLY\nNOVA STRADA 1.3 AT\nNOVA STRADA 1.3 MT\nARGO 1.0\nARGO 1.3 AT\nARGO 1.3 MT\nFIORINO 1.3\nPULSE 1.3 AT\nPULSE 1.3 MT\nMOBI FIREFLY\nMOBI 1.0 MY27"
+  },
+  {
+    "A": "52062431",
+    "B": "Filtro de Ar",
+    "C": "CRONOS 1.8\nARGO 1.8"
+  },
+  {
+    "A": "52079874",
+    "B": "Filtro de Ar",
+    "C": "NOVA STRADA 1.0T\nPULSE 1.0T AT\nPULSE 1.0T MT\nFASTBACK 1.0T"
+  },
+  {
+    "A": "52080841",
+    "B": "Filtro de Ar",
+    "C": "PULSE ABARTH 1.3T\nFASTBACK ABARTH 1.3T\nTORO 1.3T MY25\nTORO 1.3T MY26\nTORO 1.3T MY27\nTORO 1.3T MHEV"
+  },
+  {
+    "A": "7094559",
+    "B": "Filtro de Ar",
+    "C": "DUCATO X250\nDUCATO"
+  },
+  {
+    "A": "7096883",
+    "B": "Filtro de ar limpo do canister",
+    "C": "CRONOS 1.0 MY27\nCRONOS 1.3 MY27 MT\nCRONOS 1.3 MY27 AT"
+  },
+  {
+    "A": "7097628",
+    "B": "Filtro de ar limpo do canister",
+    "C": "MOBI 1.0 MY27"
+  },
+  {
+    "A": "7099618",
+    "B": "Filtro de ar limpo do canister",
+    "C": "TORO 1.3T MY26\nTORO 1.3T MY27\nTORO 1.3T MHEV"
+  },
+  {
+    "A": "155255800",
+    "B": "FILTRO DE COMBUSTÍVEL",
+    "C": "TITANO 2.2D MT (Antiga/9VC)\nTITANO 2.2D AT (Antiga/9VC)"
+  },
+  {
+    "A": "52162685",
+    "B": "Filtro de Combustível",
+    "C": "CRONOS 1.0 até MY26\nCRONOS 1.0 MY27\nCRONOS 1.3 até MY26\nCRONOS 1.3 MY27 MT\nCRONOS 1.3 MY27 AT\nCRONOS 1.8\nUNO 1.0 FIRE\nUNO 1.0 FIREFLY\nUNO 1.3 FIREFLY\nPALIO WEEKEND 1.4\nPALIO WEEKEND 1.8\nGRAND SIENA 1.0\nGRAND SIENA 1.4\nNOVA STRADA 1.3 AT\nNOVA STRADA 1.3 MT\nNOVA STRADA 1.4\nARGO 1.0\nARGO 1.3 AT\nARGO 1.3 MT\nARGO 1.8\nFIORINO 1.4 (2021/2022 para cima)\nFIORINO 1.3\nPULSE 1.3 AT\nPULSE 1.3 MT\nMOBI 1.0 FIRE\nMOBI FIREFLY\nMOBI 1.0 MY27\nDOBLO 1.8\nTORO 1.8\nTORO 2.4"
+  },
+  {
+    "A": "53489525",
+    "B": "Filtro de Combustível",
+    "C": "NOVA STRADA 1.0T\nPULSE 1.0T AT\nPULSE 1.0T MT\nPULSE ABARTH 1.3T\nFASTBACK 1.0T\nFASTBACK ABARTH 1.3T\nTORO 1.3T MY25\nTORO 1.3T MY26\nTORO 1.3T MY27\nTORO 1.3T MHEV"
+  },
+  {
+    "A": "77368658",
+    "B": "Filtro de Combustível",
+    "C": "DUCATO X250"
+  },
+  {
+    "A": "155254505",
+    "B": "FILTRO DE ÓLEO DO MOTOR",
+    "C": "SCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "46347605",
+    "B": "Filtro de Óleo do Motor",
+    "C": "NOVA STRADA 1.0T\nPULSE 1.0T AT\nPULSE 1.0T MT\nPULSE ABARTH 1.3T\nFASTBACK 1.0T\nFASTBACK ABARTH 1.3T\nTORO 1.3T MY25\nTORO 1.3T MY26\nTORO 1.3T MY27\nTORO 1.3T MHEV"
+  },
+  {
+    "A": "7087808",
+    "B": "Filtro de Óleo do Motor",
+    "C": "CRONOS 1.8\nPALIO WEEKEND 1.8\nARGO 1.8\nDOBLO 1.8\nTORO 1.8"
+  },
+  {
+    "A": "7094709",
+    "B": "Filtro de Óleo do Motor",
+    "C": "CRONOS 1.0 até MY26\nCRONOS 1.0 MY27\nCRONOS 1.3 até MY26\nCRONOS 1.3 MY27 MT\nCRONOS 1.3 MY27 AT\nUNO 1.0 FIREFLY\nUNO 1.3 FIREFLY\nNOVA STRADA 1.3 AT\nNOVA STRADA 1.3 MT\nARGO 1.0\nARGO 1.3 AT\nARGO 1.3 MT\nFIORINO 1.3\nPULSE 1.3 AT\nPULSE 1.3 MT\nMOBI FIREFLY\nMOBI 1.0 MY27"
+  },
+  {
+    "A": "9809532380",
+    "B": "Filtro de Óleo do Motor",
+    "C": "DUCATO X250\nTITANO 2.2D MT (Antiga/9VC)\nTITANO 2.2D AT (Antiga/9VC)"
+  },
+  {
+    "A": "6000655015",
+    "B": "FILTRO DE PÓLEN",
+    "C": "SCUDO 1.5 (Antiga)\ne-SCUDO"
+  },
+  {
+    "A": "46751179",
+    "B": "FILTRO OLEO",
+    "C": "UNO 1.0 FIRE\nPALIO WEEKEND 1.4\nGRAND SIENA 1.0\nGRAND SIENA 1.4\nNOVA STRADA 1.4\nFIORINO 1.4 (2021/2022 para cima)\nMOBI 1.0 FIRE"
+  },
+  {
+    "A": "71779555",
+    "B": "FILTRO OLEO",
+    "C": "DUCATO"
+  },
+  {
+    "A": "K04549626LA",
+    "B": "Fluído de freio - Mopar DOT 4S",
+    "C": "TORO 1.3T MY27\nTORO 1.3T MHEV"
+  },
+  {
+    "A": "155255303",
+    "B": "Fluído de Freio Safebrake 16M (DOT 4+)",
+    "C": "DUCATO X250 2.2D MY26\nSCUDO 1.5 (Antiga)\nSCUDO 2.2 (Nova)\nTITANO 2.2D MT (Antiga/9VC)\nTITANO 2.2D AT (Antiga/9VC)\nTITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D AT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "7093293_F",
+    "B": "Fluido para freio DOT 5.1",
+    "C": "500e"
+  },
+  {
+    "A": "2850000479",
+    "B": "Higienização do sistema de alimentação de combustível - Aditivo Isotech 012 Limpa Injetores GDI",
+    "C": "TORO 1.3T MY27\nTORO 1.3T MHEV"
+  },
+  {
+    "A": "7098496",
+    "B": "Higienização do sistema de alimentação de combustível Aditivo DETOX DGA - SOLUBILIZANTE (180 ml)",
+    "C": "TORO 2.2TD MY27\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "7099025",
+    "B": "Higienização do sistema de alimentação de combustível Aditivo DT300 TREATMENT (370 ml)",
+    "C": "TORO 2.2TD MY27\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "155255880",
+    "B": "Kit correia dos orgãos auxiliares do motor (correia dos órgão auxiliares + tensionadores)",
+    "C": "TITANO 2.2D MT (Antiga/9VC)\nTITANO 2.2D AT (Antiga/9VC)"
+  },
+  {
+    "A": "7094488",
+    "B": "Liquido de Arrefecimento Diluido -35° (DFS)",
+    "C": "SCUDO 1.5 (Antiga)\ne-SCUDO"
+  },
+  {
+    "A": "K04549625LA_F",
+    "B": "MOPAR BRAKE FLUID DOT 4 - A cada 2 anos",
+    "C": "CRONOS 1.0 até MY26\nCRONOS 1.0 MY27\nCRONOS 1.3 até MY26\nCRONOS 1.3 MY27 MT\nCRONOS 1.3 MY27 AT\nCRONOS 1.8\nUNO 1.0 FIRE\nUNO 1.0 FIREFLY\nUNO 1.3 FIREFLY\nPALIO WEEKEND 1.4\nPALIO WEEKEND 1.8\nGRAND SIENA 1.0\nGRAND SIENA 1.4\nNOVA STRADA 1.0T\nNOVA STRADA 1.3 AT\nNOVA STRADA 1.3 MT\nNOVA STRADA 1.4\nARGO 1.0\nARGO 1.3 AT\nARGO 1.3 MT\nARGO 1.8\nFIORINO 1.4 (2021/2022 para cima)\nFIORINO 1.3\nPULSE 1.0T AT\nPULSE 1.0T MT\nPULSE 1.3 AT\nPULSE 1.3 MT\nPULSE ABARTH 1.3T\nFASTBACK 1.0T\nFASTBACK ABARTH 1.3T\nMOBI 1.0 FIRE\nMOBI FIREFLY\nMOBI 1.0 MY27\nDOBLO 1.8\nDUCATO X250"
+  },
+  {
+    "A": "K04549626LA_F",
+    "B": "MOPAR BRAKE FLUID DOT 4S - A cada 2 anos",
+    "C": "TORO 1.8\nTORO 2.4\nTORO 1.3T MY25\nTORO 1.3T MY26\nTORO 2.0\nTORO 2.2TD MY26\nTORO 2.2TD MY27\nDUCATO"
+  },
+  {
+    "A": "Of20007",
+    "B": "MOPAR MAXPRO 5W30 (SN/GF-5)",
+    "C": "CRONOS 1.8\nUNO 1.0 FIRE\nPALIO WEEKEND 1.4\nPALIO WEEKEND 1.8\nGRAND SIENA 1.0\nGRAND SIENA 1.4\nNOVA STRADA 1.4\nARGO 1.8\nFIORINO 1.4 (2021/2022 para cima)\nMOBI 1.0 FIRE\nDOBLO 1.8\nTORO 1.8\nTORO 2.4"
+  },
+  {
+    "A": "7094487",
+    "B": "Mopar Maxpro Syntetic Diesel DPF C2 5W30",
+    "C": "TORO 2.0\nTORO 2.2TD MY26\nTORO 2.2TD MY27\nDUCATO\nTITANO 2.2D MT (Antiga/9VC)\nTITANO 2.2D AT (Antiga/9VC)\nTITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D AT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "7092778",
+    "B": "MOPAR MAXPRO SYNTHETIC 0W20 (SP/GF-6A)",
+    "C": "CRONOS 1.0 até MY26\nCRONOS 1.0 MY27\nCRONOS 1.3 até MY26\nCRONOS 1.3 MY27 MT\nCRONOS 1.3 MY27 AT\nUNO 1.0 FIREFLY\nUNO 1.3 FIREFLY\nNOVA STRADA 1.3 AT\nNOVA STRADA 1.3 MT\nARGO 1.0\nARGO 1.3 AT\nARGO 1.3 MT\nFIORINO 1.3\nPULSE 1.3 AT\nPULSE 1.3 MT\nMOBI FIREFLY\nMOBI 1.0 MY27"
+  },
+  {
+    "A": "7092779",
+    "B": "MOPAR MAXPRO SYNTHETIC 0W30",
+    "C": "NOVA STRADA 1.0T\nPULSE 1.0T AT\nPULSE 1.0T MT\nPULSE ABARTH 1.3T\nFASTBACK 1.0T\nFASTBACK ABARTH 1.3T\nTORO 1.3T MY25\nTORO 1.3T MY26\nTORO 1.3T MY27\nTORO 1.3T MHEV\nDUCATO X250\nSCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "7096432",
+    "B": "Óleo da caixa de câmbio automática - ATF Dexrom VI - (embalagem de 1 litro)",
+    "C": "TITANO 2.2D AT (Antiga/9VC)"
+  },
+  {
+    "A": "7099873",
+    "B": "Óleo da caixa de câmbio mecânica",
+    "C": "TITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP"
+  },
+  {
+    "A": "7095576",
+    "B": "Óleo da caixa de cambio mecanica - SAE 75W – API GL4",
+    "C": "CRONOS 1.0 até MY26\nCRONOS 1.0 MY27\nCRONOS 1.3 até MY26\nCRONOS 1.3 MY27 MT\nCRONOS 1.8\nNOVA STRADA 1.0T\nNOVA STRADA 1.3 MT\nNOVA STRADA 1.4\nARGO 1.0\nARGO 1.3 MT\nFIORINO 1.3\nPULSE 1.0T MT\nPULSE 1.3 MT\nMOBI 1.0 FIRE\nMOBI FIREFLY\nMOBI 1.0 MY27"
+  },
+  {
+    "A": "7096430",
+    "B": "Óleo da caixa de tranferência - Óleo lubrificante Dexron III",
+    "C": "TITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D AT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "K68218041LA_F",
+    "B": "Óleo do cj. diferencial traseiro - 80W 90GL-5 - (embalagem de 1 litro)",
+    "C": "TITANO 2.2D MT (Antiga/9VC)\nTITANO 2.2D AT (Antiga/9VC)"
+  },
+  {
+    "A": "7096425",
+    "B": "Óleo do conjunto diferencial traseiro - Óleo lubrificante API GL5 SAE 80W90",
+    "C": "TITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D AT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "K68231015LA_F",
+    "B": "Óleo do motor",
+    "C": "DUCATO X250 2.2D MY26\nSCUDO 2.2 (Nova)"
+  },
+  {
+    "A": "46356229",
+    "B": "Substituição da correia dentada do comando da distribuição do motor",
+    "C": "TORO 2.2TD MY26\nTORO 2.2TD MY27\nDUCATO X250 2.2D MY26\nSCUDO 2.2 (Nova)\nTITANO DS 2.2D MT MY26/Nova/8AP\nTITANO DS 2.2D AT MY26/Nova/8AP\nTITANO DS 2.2D MT MY27/Nova/8AP\nTITANO DS 2.2D AT MY27/Nova/8AP"
+  },
+  {
+    "A": "K68163849LA",
+    "B": "Substituição do líquido do sistema de arrefecimento do motor",
+    "C": "TORO 1.3T MY27\nTORO 1.3T MHEV\nTORO 2.2TD MY27\nSCUDO 2.2 (Nova)"
+  },
+  {
+    "A": "K68547228LA_F",
+    "B": "Substituição do líquido do sistema de arrefecimento do motor",
+    "C": "TORO 2.2TD MY26"
+  },
+  {
+    "A": "155253938",
+    "B": "TENSOR CORREIA DE DISTRIBUIÇÃO",
+    "C": "SCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "155253564",
+    "B": "TENSOR CORREIA DOS ÓRGÃOS AUXILIARES",
+    "C": "SCUDO 1.5 (Antiga)"
+  },
+  {
+    "A": "155253402",
+    "B": "Tensor da correia de distribuição",
+    "C": "DUCATO X250"
+  },
+  {
+    "A": "9826368080",
+    "B": "Tensor da correia dos órgão auxiliares",
+    "C": "DUCATO X250"
+  },
+  {
+    "A": "46348847",
+    "B": "Vela Ignição",
+    "C": "CRONOS 1.8\nARGO 1.8\nTORO 1.8"
+  },
+  {
+    "A": "46480362",
+    "B": "VELA IGNICAO",
+    "C": "UNO 1.0 FIRE\nPALIO WEEKEND 1.4"
+  },
+  {
+    "A": "55226520",
+    "B": "VELA IGNICAO",
+    "C": "GRAND SIENA 1.4\nNOVA STRADA 1.4\nFIORINO 1.4 (2021/2022 para cima)"
+  },
+  {
+    "A": "55267121",
+    "B": "Vela Ignição",
+    "C": "PALIO WEEKEND 1.8\nGRAND SIENA 1.0\nMOBI 1.0 FIRE\nDOBLO 1.8"
+  },
+  {
+    "A": "KSP148183AD",
+    "B": "VELA IGNIÇÃO",
+    "C": "TORO 2.4"
+  },
+  {
+    "A": "46336161",
+    "B": "Velas de Ignição",
+    "C": "NOVA STRADA 1.0T\nPULSE 1.0T AT\nPULSE 1.0T MT\nPULSE ABARTH 1.3T\nFASTBACK 1.0T\nFASTBACK ABARTH 1.3T\nTORO 1.3T MY25\nTORO 1.3T MY26\nTORO 1.3T MY27\nTORO 1.3T MHEV"
+  },
+  {
+    "A": "55267995",
+    "B": "Velas de Ignição",
+    "C": "CRONOS 1.0 até MY26\nCRONOS 1.0 MY27\nCRONOS 1.3 até MY26\nCRONOS 1.3 MY27 MT\nCRONOS 1.3 MY27 AT\nUNO 1.0 FIREFLY\nUNO 1.3 FIREFLY\nNOVA STRADA 1.3 AT\nNOVA STRADA 1.3 MT\nARGO 1.0\nARGO 1.3 AT\nARGO 1.3 MT\nFIORINO 1.3\nPULSE 1.3 AT\nPULSE 1.3 MT\nMOBI FIREFLY\nMOBI 1.0 MY27"
+  }
+]
