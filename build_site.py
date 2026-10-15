@@ -215,7 +215,7 @@ html_content = f'''<!DOCTYPE html>
             overflow-x: auto;
             background-color: #ffffff;
             position: relative;
-            max-height: calc(100vh - 190px);
+            max-height: calc(100vh - 150px);
             overflow-y: auto;
         }}
 
@@ -283,31 +283,9 @@ html_content = f'''<!DOCTYPE html>
         .code-cell {{
             font-weight: bold;
             color: #000;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             font-family: Consolas, 'Segoe UI', monospace;
             font-size: 10.5pt;
-        }}
-
-        .copy-btn {{
-            background: none;
-            border: none;
-            color: #888;
-            cursor: pointer;
-            font-size: 8pt;
-            padding: 2px 4px;
-            display: none;
-            margin-left: 8px;
-        }}
-
-        tr:hover .copy-btn {{
-            display: inline-block;
-        }}
-
-        .copy-btn:hover {{
-            color: #ff0000;
-            text-decoration: underline;
+            text-align: center;
         }}
 
         /* Car Tags / Badges */
@@ -358,33 +336,6 @@ html_content = f'''<!DOCTYPE html>
             font-weight: bold;
         }}
 
-        /* Excel Status Bar Footer */
-        .excel-footer {{
-            background-color: #f3f3f3;
-            border: 1px solid #ccc;
-            border-top: none;
-            padding: 6px 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-            font-size: 9pt;
-            color: #555;
-        }}
-
-        .footer-left {{
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }}
-
-        .footer-hint {{
-            font-style: italic;
-            color: #777;
-            font-size: 8.5pt;
-        }}
-
         /* Toast message */
         .toast-container {{
             position: fixed;
@@ -431,7 +382,7 @@ html_content = f'''<!DOCTYPE html>
         }}
 
         @media print {{
-            .filter-ribbon, .quick-chips-bar, .excel-footer {{
+            .filter-ribbon, .quick-chips-bar {{
                 display: none !important;
             }}
             .excel-container {{
@@ -497,10 +448,10 @@ html_content = f'''<!DOCTYPE html>
             <thead>
                 <tr>
                     <th style="width: 45px;"></th>
-                    <th class="sortable" id="thCodigo" style="width: 140px; text-align: center;" title="Clique para ordenar por Código">
+                    <th class="sortable" id="thCodigo" style="width: 140px; text-align: center;">
                         CÓDIGO ↕
                     </th>
-                    <th class="sortable" id="thNome" style="width: 320px; text-align: left;" title="Clique para ordenar por Descrição">
+                    <th class="sortable" id="thNome" style="width: 320px; text-align: left;">
                         Descrição DE PEÇA ↕
                     </th>
                     <th style="text-align: left;">
@@ -517,20 +468,6 @@ html_content = f'''<!DOCTYPE html>
     <!-- Empty state -->
     <div id="emptyState" class="empty-state" style="display: none;">
         Nenhum registro encontrado para os filtros selecionados.
-    </div>
-
-    <!-- Excel Status Bar -->
-    <div class="excel-footer">
-        <div class="footer-left">
-            <span id="statusBar">PRONTO</span>
-            <span>|</span>
-            <span>Registros: <strong id="spanTotal">0</strong> de 101</span>
-            <span>|</span>
-            <span class="footer-hint">Dica: Clique no código ou na linha para copiar &bull; Clique em um carro para filtrar</span>
-        </div>
-        <div>
-            <span>Fonte: <strong>lista_pecas_carros.xlsx</strong></span>
-        </div>
     </div>
 
     <!-- Toast Notification -->
@@ -565,8 +502,6 @@ html_content = f'''<!DOCTYPE html>
         const tableBody = document.getElementById('tableBody');
         const itemsTable = document.getElementById('itemsTable');
         const emptyState = document.getElementById('emptyState');
-        const statusBar = document.getElementById('statusBar');
-        const spanTotal = document.getElementById('spanTotal');
         const toastContainer = document.getElementById('toastContainer');
         const quickChipsBar = document.getElementById('quickChipsBar');
         const thCodigo = document.getElementById('thCodigo');
@@ -689,13 +624,6 @@ html_content = f'''<!DOCTYPE html>
             // Sort
             sortData();
 
-            // Status bar
-            if (state.filters.codigo || state.filters.descricao || state.filters.carro || state.filters.family) {{
-                statusBar.innerText = "FILTRADO (" + state.filteredData.length.toLocaleString('pt-BR') + " de " + state.data.length.toLocaleString('pt-BR') + " registros)";
-            }} else {{
-                statusBar.innerText = "PRONTO";
-            }}
-
             renderTable();
         }}
 
@@ -714,7 +642,6 @@ html_content = f'''<!DOCTYPE html>
         // Render table
         function renderTable() {{
             const totalItems = state.filteredData.length;
-            spanTotal.innerText = totalItems.toLocaleString('pt-BR');
 
             if (totalItems === 0) {{
                 tableBody.innerHTML = '';
@@ -731,7 +658,6 @@ html_content = f'''<!DOCTYPE html>
                 const rowNum = idx + 2; // Excel index starting at 2
                 const escCode = escapeHtml(item.codigo);
                 const escDesc = escapeHtml(item.nome);
-                const escCarros = escapeHtml(item.carros_list.join(', '));
 
                 const highlightedCode = highlightText(item.codigo, state.filters.codigo);
                 const highlightedDesc = highlightText(item.nome, state.filters.descricao);
@@ -742,23 +668,16 @@ html_content = f'''<!DOCTYPE html>
                     const isMatchedCar = (state.filters.carro === car) || 
                                          (state.filters.family && normalizeStr(car).includes(normalizeStr(state.filters.family)));
                     const tagStyle = isMatchedCar ? 'background-color: #ffeb9c; border-color: #e0b84c; color: #7a4f00; font-weight: bold;' : '';
-                    carTagsHtml += `<span class="car-tag" style="${{tagStyle}}" onclick="filterByCarTag(event, '${{escapeHtml(car)}}')" title="Clique para filtrar apenas: ${{escapeHtml(car)}}">${{escapeHtml(car)}}</span>`;
+                    carTagsHtml += `<span class="car-tag" style="${{tagStyle}}" onclick="filterByCarTag(event, '${{escapeHtml(car)}}')">${{escapeHtml(car)}}</span>`;
                 }});
 
                 html += `
-                <tr data-codigo="${{escCode}}" data-descricao="${{escDesc}}" data-carros="${{escCarros}}" onclick="handleRowClick(this)" title="Clique para copiar os dados desta linha">
+                <tr>
                     <td class="row-num">${{rowNum}}</td>
-                    <td>
-                        <div class="code-cell">
-                            <span>${{highlightedCode}}</span>
-                            <button class="copy-btn" onclick="handleCopyCode(event, '${{escCode}}')" title="Copiar código">
-                                [Copiar]
-                            </button>
-                        </div>
-                    </td>
+                    <td class="code-cell">${{highlightedCode}}</td>
                     <td>
                         <strong>${{highlightedDesc}}</strong>
-                        <span class="car-count-badge" title="${{item.num_carros}} modelos de veículos">${{item.num_carros}} ${{item.num_carros === 1 ? 'carro' : 'carros'}}</span>
+                        <span class="car-count-badge">${{item.num_carros}} ${{item.num_carros === 1 ? 'carro' : 'carros'}}</span>
                     </td>
                     <td>
                         <div class="car-tags-wrapper">
@@ -776,24 +695,6 @@ html_content = f'''<!DOCTYPE html>
         window.handleCopyCode = function(event, code) {{
             if (event) event.stopPropagation();
             copyText(code, "Código copiado: " + code);
-        }};
-
-        window.handleCopyWhatsApp = function(event, code, desc, carros) {{
-            if (event) event.stopPropagation();
-            const text = `*Cotação de Peça*\\n` +
-                         `*Peça:* ${{desc}}\\n` +
-                         `*Código:* ${{code}}\\n` +
-                         `*Aplicações:* ${{carros}}`;
-            copyText(text, "Cotação para WhatsApp copiada!");
-        }};
-
-        window.handleRowClick = function(tr) {{
-            if (window.event && (window.event.target.closest('button') || window.event.target.closest('.car-tag'))) return;
-            const code = tr.getAttribute('data-codigo');
-            const desc = tr.getAttribute('data-descricao');
-            const carros = tr.getAttribute('data-carros');
-            const textToCopy = `Código: ${{code}}\\nDescrição: ${{desc}}\\nCarros: ${{carros}}`;
-            copyText(textToCopy, "Dados da linha copiados.");
         }};
 
         window.filterByCarTag = function(event, carName) {{
